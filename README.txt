@@ -33,3 +33,11 @@ NEU IN DIESER VERSION
 
 WICHTIG FÜR CLOUD-SYNC
 Diese Version enthält eine Netlify Function. Für echte Synchronisation muss das Projekt als Netlify-Projekt mit Build/Functions veröffentlicht werden (am besten über GitHub + Netlify Continuous Deployment oder Netlify CLI). Ein reiner statischer Drag-&-Drop-Deploy kann die Function nicht zuverlässig bereitstellen.
+
+
+NEU – SUCHFUNKTION
+- Durchsucht Rezeptname, Zutaten, Kategorie und Stil gleichzeitig.
+- Mehrere Suchbegriffe werden kombiniert (z. B. „Hähnchen Asia“).
+- Trefferanzeige zeigt „x von 66 Rezepten“.
+- Löschen-Schaltfläche setzt die Suche sofort zurück.
+- Das aktuelle Backup mit 66 Rezepten ist als Grundbestand integriert. Bestehende lokale/cloud-synchronisierte Rezepte bleiben bei einem Update erhalten.
